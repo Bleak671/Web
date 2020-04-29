@@ -1,3 +1,11 @@
+@media (orientation: landscape)
+{
+	body
+	{
+		background: url(Fon1.png) no-repeat;
+	}
+}
+
 article 
 {
 	justify-content: start;

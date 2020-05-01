@@ -4,12 +4,7 @@
 <head>
 	<meta charset="UTF-8"/>
 	<title>JMYH-Airlines</title>
-	<style>
-	   body {
-			background: url(Fon1.png) no-repeat;
-	   }
-	</style>
-	<link href="Tours.css" rel="stylesheet" type="text/css"/>
+	<link href="Contacts.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body class="body">
@@ -18,23 +13,24 @@
 			<article>
 				<h1 class="title">Здравствуйте</h1>
 				<div class="block">
-					<form>
-						<p>Введите данные<br>
-						<textarea name="comment" cols="40" rows="15"></textarea></p>
-						<p><input type="submit" value="Отправить">
-						<input type="reset" value="Очистить"></p>
-					</form>
+					<img src="user-male.png">
+					<div class="hdrinfo">
+						<span>Одиноченко М. И.</span><br>
+						<span>+375296730794</span><br>
+						<span>maksim.odinochenko@yandex.ru</span><br>
+						<span>Разработчик сайта</span>
+					</div>
+					<p></p>
 				</div>
 			</article>
 			<div class="column">
 				<nav>
 					<span class="ntitle">Навигация</span>
-					<a class="ref" href="Main.html">Главная</a>
-					<a class="ref" href="Tours.html">Туры</a>
-					<a class="ref" href="Search.html">Поиск</a>
-					<a class="ref" href="Ref.html">О ситуации в мире</a>
-					<a class="ref" href="Contacts.html">Контакты</a>
-					<a class="ref" href="About.html">О нас</a>
+					<a class="ref" href="Main.php">Главная</a>
+					<a class="ref" href="Tours.php">Туры</a>
+					<a class="ref" href="Search.php">Поиск</a>
+					<a class="ref" href="Ref.php">О ситуации в мире</a>
+					<a class="ref" href="Contacts.php">Контакты</a>
 				</nav>
 				<news>
 					<span class="ntitle">Новости</span>

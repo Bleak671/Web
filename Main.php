@@ -4,16 +4,11 @@
 <head>
 	<meta charset="UTF-8"/>
 	<title>JMYH-Airlines</title>
-	<style>
-	   body {
-			background: url(Fon1.png) no-repeat;
-	   }
-	</style>
 	<link href="Main.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body class="body">
-	<div class="container">
+	<div class="container">	
 		<div class="subcontainer">
 			<article>
 				<h1 class="title">Здравствуйте</h1>
@@ -30,11 +25,11 @@
 			<div class="column">
 				<nav>
 					<span class="ntitle">Навигация</span>
-					<a class="ref" href="Main.html">Главная</a>
-					<a class="ref" href="Tours.html">Туры</a>
-					<a class="ref" href="Search.html">Поиск</a>
-					<a class="ref" href="Ref.html">О ситуации в мире</a>
-					<a class="ref" href="Contacts.html">Контакты</a>
+					<a class="ref" href="Main.php">Главная</a>
+					<a class="ref" href="Tours.php">Туры</a>
+					<a class="ref" href="Search.php">Поиск</a>
+					<a class="ref" href="Ref.php">О ситуации в мире</a>
+					<a class="ref" href="Contacts.php">Контакты</a>
 				</nav>
 				<news>
 					<span class="ntitle">Новости</span>

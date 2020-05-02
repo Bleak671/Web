@@ -8,15 +8,6 @@
 </head>
 
 <body class="body">
-	<?php
-        $names = array('Главная', 'Туры', 'Поиск', 'О ситуации в мире', 'Контакты');
-        if(isset($_GET["active"])) {
-            $curr= $_GET["active"];
-        }
-        else {
-            $curr = 4;
-        }
-    ?>
 	<div class="container">	
 		<div class="subcontainer">
 			<article>
@@ -34,15 +25,11 @@
 			<div class="column">
 				<nav>
 					<span class="ntitle">Навигация</span>
-					<?php
-						foreach($names as $key => $nav):
-					?>
-						<a <?php if ($key == $curr) {
-							echo 'class="current"';
-						}?> class="ref" href="Main.php?active=<?=$key?>"><?=$nav?></a>
-					<?php
-						endforeach;
-					?>
+					<a class="ref" href="Main.php">Главная</a>
+					<a class="ref" href="Tours.php">Туры</a>
+					<a class="ref" href="Search.php">Поиск</a>
+					<a class="ref" href="Ref.php">О ситуации в мире</a>
+					<a class="ref" href="Contacts.php">Контакты</a>
 				</nav>
 				<news>
 					<span class="ntitle">Новости</span>

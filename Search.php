@@ -14,7 +14,7 @@
 				<h1 class="title">Здравствуйте</h1>
 				<div class="block">
 					<form action="script.php" method="POST">
-						<p>Введите данные<br></p>
+						<p>Введите имя файла<br></p>
 						<p><input type="text" cols="40" rows="15" name="send" pattern="[1-0]+"></p>
 						<p><input type="submit" value="Отправить" name="Отправить">
 						<input type="reset" value="Очистить" name="Очистить"></p>
